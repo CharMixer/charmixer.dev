@@ -1,0 +1,24 @@
+# baseURL = "https://charmixer.dev/"
+title = "My New Hugo Site"
+baseurl = ""
+relativeurls = true
+languageCode = "en-us"
+theme = "solar-theme-hugo"
+
+[params]
+  scheme = "dark" # light, dark, gray or preference
+  description = "A wizard is never late"
+
+[menu]
+  [[menu.main]]
+    name = "Feed"
+    url = "/index.xml"
+  [[menu.main]]
+    name = "Repository"
+    url = "https://github.com/bake/solar-theme-hugo/"
+  [[menu.other]]
+    name = "Hugo"
+    url = "https://themes.gohugo.io/solar-theme-hugo/"
+  [[menu.other]]
+    name = "Demo"
+    url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
