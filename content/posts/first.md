@@ -17,7 +17,7 @@ func FailAllRequestsWithErrorResponse(requests []*Request, status int, code ...i
 ```
 
 ## Inline
-Inline code `NewOkResponse(index int, data interface{}) *client.Response` in here
+Inline code `NewOkResponse(index int, data interface{}) *client.Response`{:.go} in here
 
 ## Quote
 > What I cannot create, I do not understand
