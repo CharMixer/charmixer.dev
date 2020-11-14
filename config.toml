@@ -1,22 +1,30 @@
 baseURL = "https://charmixer.dev/"
 title = "My New Hugo Site"
 languageCode = "en-us"
-theme = "solar-theme-hugo"
+theme = "m10c"
 
 [params]
   scheme = "dark" # light, dark, gray or preference
   description = "A wizard is never late"
 
-[menu]
-  [[menu.main]]
-    name = "Feed"
-    url = "/index.xml"
-  [[menu.main]]
-    name = "Repository"
-    url = "https://github.com/bake/solar-theme-hugo/"
-  [[menu.other]]
-    name = "Hugo"
-    url = "https://themes.gohugo.io/solar-theme-hugo/"
-  [[menu.other]]
-    name = "Demo"
-    url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Repository"
+  url = "https://github.com/vaga/hugo-theme-m10c"
+[[menu.other]]
+  name = "Theme"
+  url = "https://themes.gohugo.io/hugo-theme-m10c/"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/charmixer"
+
+[params.style]
+  darkestColor = "#d35050"
+  darkColor = "#212121"
+  lightColor = "#f5e3e0"
+  lightestColor = "#f5f5f5"
+  primaryColor = "#fff"
