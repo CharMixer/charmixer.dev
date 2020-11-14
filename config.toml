@@ -22,7 +22,7 @@ theme = "m10c"
   darkColor = "#002b36"
   lightColor = "#839496"
   lightestColor = "#eee8d5"
-  primaryColor = "#268bd2"
+  primaryColor = "#b58900"
 
 [markup]
   [markup.highlight]
