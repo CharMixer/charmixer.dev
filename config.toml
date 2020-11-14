@@ -1,26 +1,21 @@
 baseURL = "https://charmixer.dev/"
 title = "My New Hugo Site"
 languageCode = "en-us"
-theme = "hugo-theme-m10c"
-
-[params]
-  scheme = "dark" # light, dark, gray or preference
-  description = "A wizard is never late"
+theme = "m10c"
 
 [[menu.main]]
   identifier = "tags"
   name = "Tags"
   url = "/tags/"
-[[menu.main]]
-  name = "Repository"
-  url = "https://github.com/vaga/hugo-theme-m10c"
-[[menu.other]]
-  name = "Theme"
-  url = "https://themes.gohugo.io/hugo-theme-m10c/"
 
 [[params.social]]
   name = "github"
   url = "https://github.com/charmixer"
+
+[params]
+  author = "Charmixer"
+  description = "A place for my thoughts"
+  avatar = "/img/charmixer.jpg"
 
 # [params.style]
   # darkestColor = "#d35050"
