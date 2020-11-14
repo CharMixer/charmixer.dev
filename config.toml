@@ -2,7 +2,6 @@ baseURL = "https://charmixer.dev/"
 title = "My New Hugo Site"
 languageCode = "en-us"
 theme = "m10c"
-pygmentsCodefences = true
 
 [[menu.main]]
   identifier = "tags"
@@ -24,3 +23,17 @@ pygmentsCodefences = true
   # lightColor = "#f5e3e0"
   # lightestColor = "#f5f5f5"
   # primaryColor = "#fff"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-dark"
+    tabWidth = 2
