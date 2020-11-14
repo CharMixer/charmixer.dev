@@ -17,8 +17,9 @@ func FailAllRequestsWithErrorResponse(requests []*Request, status int, code ...i
 ```
 
 ## Inline
-`NewOkResponse(index int, data interface{}) *client.Response`
+Inline code `NewOkResponse(index int, data interface{}) *client.Response` in here
 
 ## Quote
 > What I cannot create, I do not understand
+>
 > \- Richard Feynman
