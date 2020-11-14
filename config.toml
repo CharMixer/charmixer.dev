@@ -20,9 +20,9 @@ theme = "m10c"
 [params.style]
   darkestColor = "#073642"
   darkColor = "#002b36"
-  lightColor = "#268bd2"
+  lightColor = "#839496"
   lightestColor = "#eee8d5"
-  primaryColor = "#839496"
+  primaryColor = "#268bd2"
 
 [markup]
   [markup.highlight]
