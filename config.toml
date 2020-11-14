@@ -2,6 +2,7 @@ baseURL = "https://charmixer.dev/"
 title = "My New Hugo Site"
 languageCode = "en-us"
 theme = "m10c"
+pygmentsCodefences = true
 
 [[menu.main]]
   identifier = "tags"

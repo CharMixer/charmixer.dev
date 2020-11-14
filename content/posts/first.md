@@ -8,7 +8,7 @@ draft: false
 
 ## Some code
 
-```
+```go
 func FailAllRequestsWithErrorResponse(requests []*Request, status int, code ...int) {
 	for _, r := range requests {
 		r.Output = NewErrorResponse(r.Index, status, code...)
@@ -21,4 +21,4 @@ func FailAllRequestsWithErrorResponse(requests []*Request, status int, code ...i
 
 ## Quote
 > What I cannot create, I do not understand
-> - Richard Feynman
+> \- Richard Feynman
