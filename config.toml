@@ -1,5 +1,5 @@
 baseURL = "https://charmixer.dev/"
-title = "My New Hugo Site"
+title = "Charmixer"
 languageCode = "en-us"
 theme = "m10c"
 
@@ -20,7 +20,7 @@ theme = "m10c"
 [params.style]
   darkestColor = "#073642"
   darkColor = "#002b36"
-  lightColor = "#93a1a1"
+  lightColor = "#268bd2"
   lightestColor = "#eee8d5"
   primaryColor = "#839496"
 
